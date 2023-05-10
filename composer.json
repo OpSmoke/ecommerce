@@ -1,0 +1,20 @@
+{
+    "name": "opsmoke/ecommerce",
+    "autoload": {
+        "psr-4": {
+           "": "vendor\\hdcodebr\\php-classes\\src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guilherme",
+           "email": "suporte@hcode.com.br"
+        }
+    ],
+    "require": {
+
+        "phpmailer/phpmailer":"5.2.22",
+        "slim/slim":"2.0",
+        "rain/raintpl":"3.0.0"
+    }
+}
